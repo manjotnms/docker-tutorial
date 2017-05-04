@@ -1,7 +1,7 @@
 var pg = require('pg')
 var retry = require('retry')
 
-console.log("Hello World!")
+console.log("Attest The Verification")
 
 var operation = retry.operation({retries:3})
 
